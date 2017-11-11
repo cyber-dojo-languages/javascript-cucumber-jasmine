@@ -9,8 +9,8 @@
   ,
   "amber":
     {
-      "filename": "hiker.feature",
-      "from": "6 times 9",
-      "to": "6 blah 9"
+      "filename": "hiker_steps.js",
+      "from": "var assert",
+      "to": "//var assert"
     }
 }

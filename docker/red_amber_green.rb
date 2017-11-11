@@ -1,9 +1,10 @@
 
 lambda { |stdout,stderr,status|
   output = stdout + stderr
-  return :amber if /^\d+ error/.match(output)
-  return :amber if /\(\d+ undefined/.match(output)
-  return :red   if /\(\d+ failed/.match(output)
-  return :green if /\(\d+ passed\)/.match(output)
-  return :amber
+
+  return :amber if /SyntaxError/.match(output)
+  return :amber if /ReferenceError/.match(output)
+  return :amber if /^[.-UF]*U[.-UF]*$/.match(output)
+  return :red if /^[.-UF]*F[.-UF]*$/.match(output)
+  return :green
 }
