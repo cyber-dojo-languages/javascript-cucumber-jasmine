@@ -5,6 +5,7 @@ lambda { |stdout,stderr,status|
   return :amber if /SyntaxError/.match(output)
   return :amber if /ReferenceError/.match(output)
   return :amber if /^[.\-UF]*U[.\-UF]*$/.match(output)
+  return :red if /^[.\-UF]*P[.\-UF]*$/.match(output)
   return :red if /^[.\-UF]*F[.\-UF]*$/.match(output)
   return :green
 }
