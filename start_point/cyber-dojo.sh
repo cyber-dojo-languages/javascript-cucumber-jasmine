@@ -9,7 +9,8 @@
 #NODE_VERSION=4.2.1
 #NODE_VERSION=6.11.1
 #NODE_VERSION=8.2.1
-NODE_VERSION=8.4.0
+#NODE_VERSION=8.4.0
+NODE_VERSION=9.4.0
 
 # You have to cd to a specific folder because
 #   ~/node_modules/cucumber/bin/cucumber.js
@@ -22,6 +23,6 @@ cd ~/node_modules/cucumber/bin
 export NODE_PATH=/home/$CYBER_DOJO_AVATAR_NAME/node_modules
 
 n use ${NODE_VERSION} \
-  ./cucumber.js \
+  ./cucumber-js \
   --format-options '{"colorsEnabled":false}' \
   /sandboxes/$CYBER_DOJO_AVATAR_NAME/*.feature
