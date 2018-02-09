@@ -1,4 +1,4 @@
-# javascript-cucumber-jasmine
+# Javascript, cucumber-jasmine
 
 ![Build Status](https://travis-ci.org/cyber-dojo-languages/javascript-cucumber-jasmine.svg?branch=master)
 
