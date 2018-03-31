@@ -10,7 +10,7 @@
   "amber":
     {
       "filename": "hiker_steps.js",
-      "from": "var assert",
-      "to": "//var assert"
+      "from": "const assert",
+      "to": "//const assert"
     }
 }
