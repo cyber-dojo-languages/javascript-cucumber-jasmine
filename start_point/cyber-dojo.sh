@@ -31,9 +31,9 @@ if [ $? == 0 ]; then
   #   require('../lib/cli/run.js').default();
   # Go figure!
   cd ~/node_modules/cucumber/bin
-  export NODE_PATH=/home/$CYBER_DOJO_AVATAR_NAME/node_modules
+  export NODE_PATH=/home/sandbox/node_modules
   n use ${NODE_VERSION} \
     ./cucumber-js \
     --format-options '{"colorsEnabled":false}' \
-    /sandboxes/$CYBER_DOJO_AVATAR_NAME/*.feature
+    ${CYBER_DOJO_SANDBOX}/*.feature
 fi
