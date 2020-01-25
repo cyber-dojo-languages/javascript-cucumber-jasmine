@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/javascript-node_cucumber
+FROM cyberdojofoundation/javascript-node_cucumber
 LABEL maintainer=jon@jaggersoft.com
 
 # reinstall npm. See https://github.com/npm/npm/issues/14232
