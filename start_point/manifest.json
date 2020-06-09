@@ -1,6 +1,6 @@
 {
   "display_name": "Javascript, Jasmine and Cucumber",
-  "image_name": "cyberdojofoundation/javascript-node_cucumber_jasmine",
+  "image_name": "cyberdojofoundation/javascript_node_cucumber_jasmine",
   "visible_filenames":
   [
     "hiker.feature",
